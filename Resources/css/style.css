@@ -1,6 +1,15 @@
+html {
+    font-size: 16px;
+    font-family: 'Open Sans';
+}
+
 nav {
     margin: 0;
     display: block;
+}
+
+body {
+    margin: 0;
 }
 
 ul {
@@ -26,11 +35,12 @@ li {
     max-width: 100%;
     margin-left: 24px;
     margin-right: 24px;
-    height: 64px;
+    height: 4rem;
 }
 
 header {
     position: relative;
+    display: block;
 }
 
 
@@ -56,30 +66,189 @@ header {
 }
 
 
-#learn-new {
+#learn {
     display: flex;
     justify-content: space-evenly;
 }
 
-#content {
+#learn-content {
     display: flex;
     justify-items: center;
     background-color: lightgrey;
+    width: 100%;
 }
 
-#content img {
+#learn-content #image-container {
+    display: flex;
     width: 60%;
+}
+
+#learn img {
+    width: 92%;
     padding-left: 24px;
     padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
+#learn-text {
+    justify-content: left;
+    display: flex;
+    width: 40%;
+    padding: 32px 0;
+    flex: 1;
+    align-items: center;
+    margin-left: 24px;
+}
+
+#learn-info {
+    text-align: left;
+    font-size: 28px;
+    width: 80%;
+    display: block;
+}
+
+#title-quote {
+    font-size: 32px;
+}
+
+#button {
+    display: block;
+    background-color: #292929;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+#tier-1 {
+    display: flex;
+    justify-items: center;
+    font-family: 'Open Sans';
+}
+
+#left-tier-2 {
+    display: block;
+    width: 60%;
+}
+
+#right-tier-2 {
+    display: block;
+    width: 40%;
+    padding-top: 32px;
+}
+
+#left-top-tier-3 {
+    display: flex;
+    padding-top: 32px;
+}
+
+#left-top-tier-3 img {
+    width: 92%;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#left-bottom-tier-3 {
+    display: block;
+    padding-left: 24px;
     padding-bottom: 32px;
     padding-right: 24px;
 }
 
-
-#info {
-    display: block;
+#left-bottom-tier-3 #main {
+    padding-top: 32px;
+    padding-bottom: 24px;
+    margin: 0;
+    margin-block-start: 0;
+    font-size: 44px;
+    font-weight: bold;
 }
 
-h1 {
+#left-bottom-tier-3 #quote {
+    font-size: 18px;
+    margin: 0;
+    font-weight: lighter;
+}
+
+#left-bottom-tier-3 #author {
+    font-size: 14px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
+
+#right-top-tier-3, #right-middle-tier-3, #right-bottom-tier-3 {
+    display: flex;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    align-self: center;
+}
+
+#right-top-tier-3-left {
     display: block;
+    width: 35%;
+}
+
+#right-top-tier-3-left img {
+    width: 100%;
+    height: auto;
+}
+
+#right-top-tier-3-right {
+    display: block;
+    width: 65%;
+    padding-left: 16px;
+    align-self: center;
+
+}
+
+
+#right-middle-tier-3-left {
+    display: block;
+    width: 35%;
+}
+
+#right-middle-tier-3-left img {
+    width: 100%;
+    height: auto;
+}
+
+#right-middle-tier-3-right {
+    display: block;
+    width: 65%;
+    padding-left: 16px;
+    align-self: center;
+
+}
+
+
+#right-bottom-tier-3-left {
+        display: block;
+        width: 35%;
+    }
+    
+#right-bottom-tier-3-left img {
+        width: 100%;
+        height: auto;
+    }
+    
+#right-bottom-tier-3-right {
+        display: block;
+        width: 65%;
+        padding-left: 16px;
+        align-self: center;
+}
+
+#right-tier-2 h4 {
+    font-size: 30px;
+    font-weight: normal;
+    font-family: 'Open Sans';
+    margin: 0;
+}
+
+#right-tier-2 #read-more {
+    color: blue;
+
 }
