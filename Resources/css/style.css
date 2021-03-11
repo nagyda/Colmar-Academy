@@ -96,18 +96,20 @@ header {
     align-items: center;
     margin-left: 24px;
     text-align: left;
-
+h
 }
 
 #learn-title {
-    font-size: 38px;
-    width: 80%;
+    font-size: 52px;
+    width: 100%;
     font-weight: bold;
+    padding-bottom: 24px; 
 }
 
 #learn-quote {
-    font-size: 28px;
-    width: 80%;
+    font-size: 32px;
+    width: 100%;
+    padding-bottom: 24px;
 }
 
 #learn-button {
@@ -122,106 +124,167 @@ header {
 
 /*second part*/
 
-body {
-    font-family: 'Open Sans'
-  }
+
+#outer-box {
+  display: flex;
+  background-color: rgb(236, 236, 236);
+}
+
+#left-side {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  padding: 32px 24px 32px 24px;
+}
+
+#left-image {
+  width: 100%;
+  overflow: hidden;
+}
+
+#image-text {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+#main-text {
+  font-size: 38px; 
+  margin-top: 32px;
+  margin-bottom: 24px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+#quote {
+  margin-bottom: 32px;
+  font-size: 16px;
+  font-weight: light;
+}
+
+#author {
+  font-size: 12px;
+}
+
+#right-side {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: flex-start;
+}
+
+.side {
+  display: flex;
+  align-items: center;
+}
+
+.side-image {
+  width: 35%;
+  overflow: hidden;
+  display: flex;
+}
+
+.icon {
+  width: 100%;
+}
+
+.side-text {
+  width: 65%;
+  display: flex;
+  margin-right: 10px;
+  display: block;
+  margin-left: 16px;
+}
+
+p {
+  margin: 0;
   
-  #outer-box {
-    display: flex;
-  }
-  
-  #left-side {
-    display: flex;
-    width: 60%;
-    flex-direction: column;
-    padding: 32px 24px 32px 24px;
-  }
-  
-  #left-image {
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  #image-text {
-    display: flex;
-    flex-direction: column;
-   
-  }
-  
-  #main-text {
-    font-size: 38px; 
-    margin-top: 32px;
-    margin-bottom: 24px;
-    font-weight: bold;
-    font-family: Arial;
-  }
-  
-  #quote {
-    margin-bottom: 32px;
-    font-size: 16px;
-    font-weight: light;
-  }
-  
-  #author {
-    font-size: 12px;
-  }
-  
-  #right-side {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    justify-content: center;
-  }
-  
-  .side {
-    display: flex;
-    align-items: center;
-    margin-left: 16px;
-  }
-  
-  .side-image {
-    width: 35%;
-    overflow: hidden;
-    display: flex;
-  }
-  
-  .icon {
-    width: 100%;
-  }
-  
-  .side-text {
-    width: 65%;
-    display: flex;
-    margin-right: 10px;
-    display: block;
-    margin-left: 16px;
-  }
-  
-  p {
-    margin: 0;
-    
-  }
-  .text-title {
-    font-size: 24px;
-  
-  }
-  
-  .text-subtitle {
-    margin: 8px 0 8px 0;
-  }
-  
-  .read-more {
-    color: blue;
-  }
-  
-  .top {
-   display: flex;
-  }
-  
-  #textboxes {
-    justify-content: center;
-  }
-  
-  .bottom, .middle, .top {
-    padding: 16px 0 16px 0;
-  }
+}
+.text-title {
+  font-size: 24px;
+
+}
+
+.text-subtitle {
+  margin: 8px 0 8px 0;
+}
+
+.read-more {
+  color: blue;
+}
+
+.top {
+ display: flex;
+}
+
+#textboxes {
+  justify-content: center;
+}
+
+.bottom, .middle, .top {
+  padding: 16px 0 16px 16px;
+}
+
+.side:hover {
+  background-color: lightgrey;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* third part */
+
+#start-learning {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgrey;
+  align-items: center;
+  padding: 32px 72px 32px 72px;
+  margin: 0;
+
+}
+
+#top-row {
+display: flex;
+padding: 16px 0 16px 0;
+}
+
+#second-row {
+display: flex;
+padding: 16px 0 16px 0;
+
+}
+
+course {
+width: 100%;
+margin: 0 16px 24px 16px;
+background-color: white;
+padding-bottom: 24px;
+}
+
+course:hover {
+  transform: scale(1.05);
+}
+
+course h2 {
+letter-spacing: 1px
+}
+
+course h3 {
+text-transform: uppercase;
+font-size: 16px;
+}
+
+course img {
+width: 100%;
+overflow: hidden;
+height: auto;
+}
+
+#text {
+align-items: center;
+margin-left: 16px;
+margin-right: 5px;
+}
