@@ -202,7 +202,6 @@ p {
 }
 .text-title {
   font-size: 24px;
-
 }
 
 .text-subtitle {
@@ -226,7 +225,7 @@ p {
 }
 
 .side:hover {
-  background-color: lightgrey;
+  background-color: rgb(190, 190, 190);
 }
 
 a {
@@ -236,15 +235,24 @@ a {
 
 /* third part */
 
+main-title-learning {
+  display: block;
+  padding: 32px 0 16px 0;
+  font-size: 42px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  background-color: lightgray;
+}
+
 #start-learning {
   display: flex;
   justify-content: space-between;
   background-color: lightgrey;
   align-items: center;
-  padding: 32px 72px 32px 72px;
+  padding: 16px 72px 32px 72px;
   margin: 0;
-
-}
+  }
 
 #top-row {
 display: flex;
@@ -262,6 +270,8 @@ width: 100%;
 margin: 0 16px 24px 16px;
 background-color: white;
 padding-bottom: 24px;
+box-shadow: 5px 5px 3px grey;
+
 }
 
 course:hover {
@@ -288,3 +298,92 @@ align-items: center;
 margin-left: 16px;
 margin-right: 5px;
 }
+
+/* fourth part */
+
+thesis {
+  display: flex;
+  background-color: rgb(236, 236, 236);
+  padding-left: 24px;
+}
+
+main-content {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+side {
+  width: 40%;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.article {
+  display: flex;
+  margin-top: 0%;
+  padding: 16px 0 16px 16px;
+  align-items: center;
+}
+
+.article:hover {
+  background-color: rgb(190, 190, 190);
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+image-container {
+  width: 35%;
+margin: auto;
+  height: auto;
+}
+
+text-container {
+  width: 65%;
+  display: flex;
+  margin-right: 10px;
+  display: block;
+  margin-left: 16px;
+}
+
+main-title {
+  display: block;
+  padding: 32px 0 32px 0;
+  font-size: 42px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(236, 236, 236);
+}
+
+#urban h4 {
+  font-size: 28px;
+  padding: 24px 0 8px 0;
+  margin: 0;
+}
+
+#urban p {
+  font-size: 20px;
+  padding-bottom: 32px;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  padding: 16px 16px 32px 24px;
+  background-color: rgb(236, 236, 236);
+  border-top: 1px solid lightgray;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+}
+
