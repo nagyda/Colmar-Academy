@@ -1,258 +1,257 @@
 html {
-    font-size: 16px;
-    font-family: 'Open Sans';
+  font-size: 16px;
+  font-family: 'Open Sans';
 }
 
 nav {
-    margin: 0;
-    display: block;
+  margin: 0;
+  display: block;
 }
 
 
 body {
-    margin: auto;
-    max-width: 1200px;
+  margin: auto;
 }
 
 ul {
-    list-style: none;
-    margin: 0;
-    display: block;
-    
+  list-style: none;
+  margin: 0;
+  display: block;
+  
 }
 
 li {
-    display: inline-block;
-    font-size: 18px;
-    font-weight: normal;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-left: 16px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: 'Open Sans';
+  padding-left: 16px;
 
 }
 
 .container {
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    max-width: 100%;
-    margin-left: 24px;
-    margin-right: 24px;
-    height: 4rem;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin-left: 24px;
+  margin-right: 24px;
+  height: 4rem;
 }
 
 header {
-    position: relative;
-    display: block;
+  position: relative;
+  display: block;
 }
 
 
 #logo {
-    height: 60px;
-    width: 60px;
-    align-items: center;
-    display: inline-flex;
+  height: 60px;
+  width: 60px;
+  align-items: center;
+  display: inline-flex;
 }
 
 #left {
-    align-items: center;
-    display: inline-flex;
+  align-items: center;
+  display: inline-flex;
 }
 
 #title {
-    font-size: 32px;
-    margin-left: 3px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-transform: uppercase;
-    font-weight: lighter;
-    align-items: center;
+  font-size: 32px;
+  margin-left: 3px;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  font-weight: lighter;
+  align-items: center;
 }
 
 /* first part */
 
 #learn {
-    display: flex;
-    justify-content: space-between;
-    background-color: lightgrey;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgrey;
+  align-items: center;
+  width: 100%;
 }
 
 #image-container {
-    width: 60%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: 32px 0 32px 24px;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 32px 0 32px 24px;
 }
 
 #learn img {
-    width: 100%;
-    overflow: hidden;
+  width: 100%;
+  overflow: hidden;
 }
 
 #learn-text {
-    justify-content: flex-start;
-    width: 40%;
-    display: block;
-    align-items: center;
-    margin-left: 24px;
-    text-align: left;
+  justify-content: flex-start;
+  width: 40%;
+  display: block;
+  align-items: center;
+  margin-left: 24px;
+  text-align: left;
 }
 
 #learn-title {
-    font-size: 52px;
-    width: 100%;
-    font-weight: bold;
-    padding-bottom: 24px; 
+  font-size: 52px;
+  width: 100%;
+  font-weight: bold;
+  padding-bottom: 24px; 
 }
 
 #learn-quote {
-    font-size: 32px;
-    width: 100%;
-    padding-bottom: 24px;
+  font-size: 32px;
+  width: 100%;
+  padding-bottom: 24px;
 }
 
 #learn-button {
-    display: block;
-    background-color: #292929;
-    color: white;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    text-align: center;
-    width: 70%;
+  display: block;
+  background-color: #292929;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  width: 70%;
 }
 
 /*second part*/
 
 
 #outer-box {
-  display: flex;
-  background-color: rgb(236, 236, 236);
+display: flex;
+background-color: rgb(236, 236, 236);
 }
 
 #left-side {
-  display: flex;
-  width: 60%;
-  flex-direction: column;
-  padding: 32px 24px 32px 24px;
+display: flex;
+width: 60%;
+flex-direction: column;
+padding: 32px 24px 32px 24px;
 }
 
 #left-image {
-  width: 100%;
-  overflow: hidden;
+width: 100%;
+overflow: hidden;
 }
 
 #image-text {
-  display: flex;
-  flex-direction: column;
- 
+display: flex;
+flex-direction: column;
+
 }
 
 #main-text {
-  font-size: 38px; 
-  margin-top: 32px;
-  margin-bottom: 24px;
-  font-weight: bold;
-  font-family: Arial;
+font-size: 38px; 
+margin-top: 32px;
+margin-bottom: 24px;
+font-weight: bold;
+font-family: Arial;
 }
 
 #quote {
-  margin-bottom: 32px;
-  font-size: 16px;
-  font-weight: light;
+margin-bottom: 32px;
+font-size: 16px;
+font-weight: lighter;
 }
 
 #author {
-  font-size: 12px;
+font-size: 12px;
 }
 
 #right-side {
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-  justify-content: flex-start;
+display: flex;
+flex-direction: column;
+width: 40%;
+justify-content: flex-start;
 }
 
 .side {
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
 }
 
 .side-image {
-  width: 35%;
-  overflow: hidden;
-  display: flex;
+width: 35%;
+overflow: hidden;
+display: flex;
 }
 
 .icon {
-  width: 100%;
+width: 100%;
 }
 
 .side-text {
-  width: 65%;
-  display: flex;
-  margin-right: 10px;
-  display: block;
-  margin-left: 16px;
+width: 65%;
+display: flex;
+margin-right: 10px;
+display: block;
+margin-left: 16px;
 }
 
 p {
-  margin: 0;
-  
+margin: 0;
+
 }
 .text-title {
-  font-size: 24px;
+font-size: 24px;
 }
 
 .text-subtitle {
-  margin: 8px 0 8px 0;
+margin: 8px 0 8px 0;
 }
 
 .read-more {
-  color: blue;
+color: blue;
 }
 
 .top {
- display: flex;
+display: flex;
 }
 
 #textboxes {
-  justify-content: center;
+justify-content: center;
 }
 
 .bottom, .middle, .top {
-  padding: 16px 0 16px 16px;
+padding: 16px 0 16px 16px;
 }
 
 .side:hover {
-  background-color: rgb(190, 190, 190);
+background-color: rgb(190, 190, 190);
 }
 
 a {
-  text-decoration: none;
-  color: inherit;
+text-decoration: none;
+color: inherit;
 }
 
 /* third part */
 
 main-title-learning {
-  display: block;
-  padding: 32px 0 16px 0;
-  font-size: 42px;
-  width: 100%;
-  text-align: center;
-  font-weight: bold;
-  background-color: lightgray;
+display: block;
+padding: 32px 0 16px 0;
+font-size: 42px;
+width: 100%;
+text-align: center;
+font-weight: bold;
+background-color: lightgray;
 }
 
 #start-learning {
-  display: flex;
-  justify-content: space-between;
-  background-color: lightgrey;
-  align-items: center;
-  padding: 16px 72px 32px 72px;
-  margin: 0;
-  }
+display: flex;
+justify-content: space-between;
+background-color: lightgrey;
+align-items: center;
+padding: 16px 72px 32px 72px;
+margin: 0;
+}
 
 #top-row {
 display: flex;
@@ -275,7 +274,7 @@ box-shadow: 5px 5px 3px grey;
 }
 
 course:hover {
-  transform: scale(1.05);
+transform: scale(1.05);
 }
 
 course h2 {
@@ -302,87 +301,194 @@ margin-right: 5px;
 /* fourth part */
 
 thesis {
-  display: flex;
-  background-color: rgb(236, 236, 236);
-  padding-left: 24px;
+display: flex;
+background-color: rgb(236, 236, 236);
+padding-left: 24px;
 }
 
 main-content {
-  display: flex;
-  justify-content: center;
-  width: 60%;
+display: flex;
+justify-content: center;
+width: 60%;
 }
 
 side {
-  width: 40%;
-  align-items: center;
-  margin-left: 24px;
+width: 40%;
+align-items: center;
+margin-left: 24px;
 }
 
 .article {
-  display: flex;
-  margin-top: 0%;
-  padding: 16px 0 16px 16px;
-  align-items: center;
+display: flex;
+margin-top: 0%;
+padding: 16px 0 16px 16px;
+align-items: center;
 }
 
 .article:hover {
-  background-color: rgb(190, 190, 190);
+background-color: rgb(190, 190, 190);
 }
 
 video {
-  width: 100%;
-  height: auto;
+width: 100%;
+height: auto;
 }
 
 img {
-  width: 100%;
-  vertical-align: middle;
+width: 100%;
+vertical-align: middle;
 }
 
 image-container {
-  width: 35%;
+width: 35%;
 margin: auto;
-  height: auto;
+height: auto;
 }
 
 text-container {
-  width: 65%;
-  display: flex;
-  margin-right: 10px;
-  display: block;
-  margin-left: 16px;
+width: 65%;
+display: flex;
+margin-right: 10px;
+display: block;
+margin-left: 16px;
 }
 
 main-title {
-  display: block;
-  padding: 32px 0 32px 0;
-  font-size: 42px;
-  width: 100%;
-  text-align: center;
-  font-weight: bold;
-  background-color: rgb(236, 236, 236);
+display: block;
+padding: 32px 0 32px 0;
+font-size: 42px;
+width: 100%;
+text-align: center;
+font-weight: bold;
+background-color: rgb(236, 236, 236);
 }
 
 #urban h4 {
-  font-size: 28px;
-  padding: 24px 0 8px 0;
-  margin: 0;
+font-size: 28px;
+padding: 24px 0 8px 0;
+margin: 0;
 }
 
 #urban p {
-  font-size: 20px;
-  padding-bottom: 32px;
+font-size: 20px;
+padding-bottom: 32px;
 }
 
 /* footer */
 
 footer {
+display: flex;
+padding: 16px 16px 32px 24px;
+background-color: rgb(236, 236, 236);
+border-top: 1px solid lightgray;
+justify-content: space-between;
+align-items: center;
+max-width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+#title {
+  display: none;
+}
+nav {
+  display: none;
+}
+
+#learn {
   display: flex;
-  padding: 16px 16px 32px 24px;
-  background-color: rgb(236, 236, 236);
-  border-top: 1px solid lightgray;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 100%;
+  flex-direction: column;
+}
+
+#image-container {
+  width: 100%;
+  margin: auto;
+}
+
+#learn-text {
+  width: 100%;
+  margin: 0px 16px 0px 16px;
+  padding-left: 16px;
+}
+
+#learn-button {
+  margin: auto;
+  width: 80%;
+}
+
+#left-image, #main-text, #quote, #author {
+  display: none;
+}
+
+#outer-box{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#right-side, #side {
+  width: 100%;
+}
+
+.top, .middle, .bottom {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 16px;
+}
+
+.side-image {
+  width: 100%;
+  margin: auto;
+}
+
+#start-learning, #top-row, #second-row {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0;
+  margin: 0;
+  width: 100%;
+}
+
+course {
+  margin: 8px auto 8px auto;
+  padding: 10px 10px;
+  width: 100%;
+  box-shadow: none;
+}
+
+course h3 {
+  display: none;
+}
+
+course img {
+  display: none;
+}
+
+course p {
+  display: none;
+}
+
+side {
+  display: none;
+}
+
+footer ul {
+  display: none;
+}
+
+main-content {
+  width: 100%}
+
+main-content h4, .quote {
+  display: none;
+}
+
+#thesis-exhibit {
+  padding: 0;
+}
+
+#urban {
+  width: 100%;
+  margin: auto;
+}
 }
