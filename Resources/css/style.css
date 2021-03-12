@@ -10,7 +10,8 @@ nav {
 
 
 body {
-    margin: 0;
+    margin: auto;
+    max-width: 1200px;
 }
 
 ul {
@@ -96,7 +97,6 @@ header {
     align-items: center;
     margin-left: 24px;
     text-align: left;
-h
 }
 
 #learn-title {
@@ -386,4 +386,3 @@ footer {
   align-items: center;
   max-width: 100%;
 }
-
