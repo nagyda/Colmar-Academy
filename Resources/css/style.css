@@ -3,6 +3,11 @@ html {
   font-family: 'Open Sans';
 }
 
+* {
+  outline: 1px red solid !important;
+  visibility: visible !important;
+}
+
 nav {
   margin: 0;
   display: block;
@@ -387,6 +392,16 @@ max-width: 100%;
 }
 
 @media only screen and (max-width: 800px) {
+
+html, body {
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0;
+  padding: 0px 5px 0px 5px;
+}
+
 #title {
   display: none;
 }
@@ -407,15 +422,23 @@ nav {
 #learn-text {
   width: 100%;
   margin: 0px 16px 0px 16px;
-  padding-left: 16px;
 }
 
-#learn-button {
+#learn-title, #learn-quote {
+  padding-left: 16px;
+  width: auto;
+}
+
+body #learn-button {
   margin: auto;
   width: 80%;
 }
 
 #left-image, #main-text, #quote, #author {
+  display: none;
+}
+
+#left-side {
   display: none;
 }
 
@@ -449,11 +472,21 @@ nav {
   width: 100%;
 }
 
+#start-learning #text {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+selection {
+  width: 90%;
+}
+
 course {
   margin: 8px auto 8px auto;
-  padding: 10px 10px;
+  padding: 0;
   width: 100%;
   box-shadow: none;
+  background-color: gray;
 }
 
 course h3 {
