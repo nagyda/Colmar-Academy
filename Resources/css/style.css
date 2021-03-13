@@ -3,6 +3,10 @@ html {
   font-family: 'Open Sans';
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 /* this is for debugging margin and padding issues
 
 * {
